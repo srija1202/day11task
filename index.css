@@ -1,0 +1,87 @@
+body {
+  padding-top: 80px;
+  background-color: rgb(201, 209, 197);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(46, 60, 69);
+  padding-left: 10px;
+  height: 80px;
+  z-index: 1000;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(228, 228, 230);
+  padding-top: 5px;
+  text-align: start;
+  padding-left: 10px;
+  letter-spacing: 0.2rem;
+  font-size: 14px;
+}
+
+span {
+  padding-left: 45%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.d-flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa {
+  color: white;
+}
+
+.box1 {
+  height: 530px;
+  width: 400px;
+  background-color: #363636;
+  border-radius: 15px;
+}
+
+.container {
+  padding: 20px;
+  margin-left: 50px;
+}
+
+
+.inner-box {
+  background-color: #363636;
+  height: 120px;
+  width: 150px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+}
+
+.box-center {
+  margin: auto;
+  margin-bottom: 90px;
+  height: 40px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.box-bottom {
+  width: 540px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+@media (max-width: 576px) {
+  .d-flex {
+      flex-direction: row;
+  }
+
+  .inner-box {
+      width: 90%;
+  }
+}
